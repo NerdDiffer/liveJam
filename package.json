@@ -1,0 +1,19 @@
+{
+  "name": "working-title",
+  "version": "0.0.0",
+  "description": "Connect to friends, jam live, record your music",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColossalBubble/workingTitle.git"
+  },
+  "author": "Frances Yang, Greg Roche, Krishan Arya, Rafael Espinoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ColossalBubble/workingTitle/issues"
+  },
+  "homepage": "https://github.com/ColossalBubble/workingTitle#readme"
+}
