@@ -4,6 +4,8 @@
   "description": "Connect to friends, jam live, record your music",
   "main": "index.js",
   "scripts": {
+    "prestart": "npm install",
+    "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
