@@ -1,0 +1,21 @@
+{
+  "name": "working-title",
+  "version": "0.0.0",
+  "description": "Connect to friends, jam live, record your music",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColossalBubble/workingTitle.git"
+  },
+  "author": "Frances Yang, Krishan Arya, Greg Roche, Rafael Espinoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ColossalBubble/workingTitle/issues"
+  },
+  "homepage": "https://github.com/ColossalBubble/workingTitle#readme"
+}
