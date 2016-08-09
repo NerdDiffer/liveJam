@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ColossalBubble/workingTitle.git"
+    "url": "git+https://github.com/ColossalBubble/liveJam.git"
   },
   "author": "Frances Yang, Krishan Arya, Greg Roche, Rafael Espinoza",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ColossalBubble/workingTitle/issues"
+    "url": "https://github.com/ColossalBubble/liveJam/issues"
   },
-  "homepage": "https://github.com/ColossalBubble/workingTitle#readme",
+  "homepage": "https://github.com/ColossalBubble/liveJam#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
