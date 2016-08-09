@@ -4,10 +4,10 @@ const dummyData = require('../dummyData');
 
 module.exports = {
   up: function (queryInterface, Sequelize) {
-    return queryInterface.bulkInsert('users', dummyData.users, {});
+    return queryInterface.bulkInsert('Users', dummyData.users, {});
   },
 
   down: function (queryInterface, Sequelize) {
-    return queryInterface.bulkDelete('users', null, {});
+    return queryInterface.bulkDelete('Users', null, {});
   }
 };

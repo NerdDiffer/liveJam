@@ -17,7 +17,7 @@ module.exports = {
       email: {
         type: Sequelize.STRING
       },
-      hashed_password: {
+      hashedPassword: {
         type: Sequelize.STRING
       },
       createdAt: {
