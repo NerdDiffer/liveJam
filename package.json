@@ -2,20 +2,31 @@
   "name": "working-title",
   "version": "0.0.0",
   "description": "Connect to friends, jam live, record your music",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "prestart": "npm install",
     "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash",
+    "back-end": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ColossalBubble/workingTitle.git"
+    "url": "git+https://github.com/ColossalBubble/liveJam.git"
   },
   "author": "Frances Yang, Krishan Arya, Greg Roche, Rafael Espinoza",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ColossalBubble/workingTitle/issues"
+    "url": "https://github.com/ColossalBubble/liveJam/issues"
   },
-  "homepage": "https://github.com/ColossalBubble/workingTitle#readme"
+  "homepage": "https://github.com/ColossalBubble/liveJam#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.23.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.0"
+  }
 }
