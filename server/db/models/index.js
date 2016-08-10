@@ -7,7 +7,7 @@ var basename  = path.basename(module.filename);
 var env       = process.env.NODE_ENV || 'development';
 var db        = {};
 
-var pathToConfig = path.join(__dirname, '..', 'db', 'config.json');
+var pathToConfig = path.join(__dirname, 'config.json');
 var config       = require(pathToConfig)[env];
 
 if (config.use_env_variable) {
